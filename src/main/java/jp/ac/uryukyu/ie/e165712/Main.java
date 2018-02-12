@@ -15,7 +15,7 @@ public class Main {
         Player player1 = new Player(player1cards, "player1");
         Player player2 = new Player(player2cards, "player2");
 
-        //カードのソート，ペア数の判定
+        //カードの並び替え，ペア数の判定
         player1.Sort(player1);
         player2.Sort(player2);
 

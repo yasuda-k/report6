@@ -16,7 +16,7 @@ public class Player {
     }
 
     public void Sort(Player player) {
-        //レポート7の昇順に並べ換えるプログラムを利用
+        //レポート7の昇順に並べ替えるプログラムを利用
         int lower;
         for (int i = 0; i < tehuda.length - 1; i++) {
             for (int t = 0; t < tehuda.length - (1 + i); t++) {
